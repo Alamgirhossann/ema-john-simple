@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 
 const Cart = (props) => {
     const cart= props.cart;
-
+    // const user = useContext(UserContext)
     let total= 0;
     for (let i = 0; i < cart.length; i++) {
         const product = cart[i];
@@ -33,6 +33,7 @@ const Cart = (props) => {
             <p>Total Price:{grandTotal}</p>
             <br/>
             {props.children}
+            <p>{}</p>
         </div>
     );
 };
