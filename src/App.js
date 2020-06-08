@@ -20,7 +20,7 @@ import Shipment from './components/Shipment/Shipment';
 
 
 function App() {
-  const user = {name:'koduMia', email: 'kodumia@gml.com'}
+  
   return (
     <div >
       <AuthContextProvider>
