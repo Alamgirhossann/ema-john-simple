@@ -16,11 +16,6 @@ const Review = () => {
         removeFromDatabaseCart(productKey);
     }
     const auth = useAuth();
-    // const handlePlaceOrder = () =>{
-    //     setCart([]);
-    //     setOrderPlaced(true);
-    //    processOrder();
-    // }
 
     useEffect(()=>{
         const savedCart = getDatabaseCart();
